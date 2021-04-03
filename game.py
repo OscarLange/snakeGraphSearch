@@ -61,7 +61,7 @@ def game_loop():
                     yDirection = 10
         #get direction from graph         
         xDirection, yDirection = returnDirection(yDirection, width, height, foodx, foody, snake)
-        print("snake=(",snake[0][0], "|", snake[0][1], "),score=",score(snake[0][0], snake[0][1], width, height) ,", apple=(", foodx, "|", foody,") =>", xDirection, "|", yDirection, sep="")   
+        #print("snake=(",snake[0][0], "|", snake[0][1], "),score=",score(snake[0][0], snake[0][1], width, height) ,", apple=(", foodx, "|", foody,") =>", xDirection, "|", yDirection, sep="")   
         #game logic
         #loose game
         if(snake[0][0] < 0 or snake[0][0] >= width or snake[0][1] < 0 or snake[0][1] >= height):
